@@ -2,20 +2,5 @@
 
 ## Installation
 
-1. Follow the steps described in this repository: https://github.com/ambientmoxie/sveltekit-kirby
+Follow the steps described here: https://github.com/ambientmoxie/sveltekit-kirby
 
-## config.php file
-
-```
-<?php
-return [
-    'debug' => true,
-    'api' => [
-        'basicAuth' => true,
-        'allowInsecure' => true // Avoid CORS errors during local developement. Ensure this line is removed before deploying to production.
-    ],
-    'kql' => [
-        'auth' => true
-    ],
-];
-```
